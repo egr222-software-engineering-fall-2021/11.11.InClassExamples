@@ -6,11 +6,11 @@ public class AnimalSimulator {
         Animal animal = new Dog();
         animal.makeSound();
 
-        Animal a = GetAnimal();
-        a.makeSound();
+        Animal x = GetAnimal();
+        x.makeSound();
     }
 
     public static Animal GetAnimal() {
-        return new Dog();
+        return new Cat();
     }
 }

@@ -6,15 +6,11 @@ public class MiniDuckSimulator {
         mallard.swim();
         mallard.fly();
 
-        System.out.println();
-
         Duck redheadDuck = new RedheadDuck();
         redheadDuck.display();
         redheadDuck.quack();
         redheadDuck.swim();
         redheadDuck.fly();
-
-        System.out.println();
 
         Duck rubberDuck = new RubberDuck();
         rubberDuck.display();
